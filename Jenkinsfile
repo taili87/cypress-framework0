@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	stages {
-		stage('Clone Git Repo'){
+		stage('Checout and pull repo'){
 				steps{
 					git 'https://github.com/taili87/cypress-framework0.git'
 		    }
@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Run Tests'){
 				steps{
-					bat 'npm test'
+					bat 'npm cypress:run'
 				}
 		}
 		stage('Publish HTML Report'){
