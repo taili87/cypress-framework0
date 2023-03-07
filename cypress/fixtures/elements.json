@@ -1,0 +1,10 @@
+{
+    "username":"Admin",
+    "password":"admin123",
+    "usernameLocator":"[name='username']",
+    "passwordLocator":"[name='password']",
+    "loginButton": ".oxd-button",
+    "identificationUsername": ".oxd-userdropdown-name",
+    "logoutButton": ":nth-child(4) > .oxd-userdropdown-link",
+    "homePageLoginText": ".oxd-text--h5"
+}

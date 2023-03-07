@@ -1,0 +1,19 @@
+{
+  "name": "cy-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:test": "cypress ope",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.1"
+  },
+  "devDependencies": {
+    "cypress-fill-command": "^1.0.2"
+  }
+}
