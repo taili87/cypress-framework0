@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-03-07T20:04:04.627Z",
+    "end": "2023-03-07T20:04:11.884Z",
+    "duration": 7257,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "43f3431d-05e4-4c9f-a474-f56a95624206",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Demo\\DynamicElements.cy.js",
+      "file": "cypress\\e2e\\Demo\\DynamicElements.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bfb36289-abdd-42d7-98c6-5827ac9bf3db",
+          "title": "Handliong Dynamic elements",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Handling dynamic Text",
+              "fullTitle": "Handliong Dynamic elements Handling dynamic Text",
+              "timedOut": null,
+              "duration": 4270,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.DynamicText();",
+              "err": {},
+              "uuid": "9f569363-d552-42a3-b17c-65f04a58e82e",
+              "parentUUID": "bfb36289-abdd-42d7-98c6-5827ac9bf3db",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9f569363-d552-42a3-b17c-65f04a58e82e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4270,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -12,7 +12,8 @@
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
-
+// This is for the setup of mochawesome reports
+import 'cypress-mochawesome-reporter/register';
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './dymanicFolder/dynamic.command'

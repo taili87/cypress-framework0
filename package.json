@@ -14,6 +14,7 @@
     "cypress": "^12.5.1"
   },
   "devDependencies": {
-    "cypress-fill-command": "^1.0.2"
+    "cypress-fill-command": "^1.0.2",
+    "cypress-mochawesome-reporter": "^3.3.0"
   }
 }
